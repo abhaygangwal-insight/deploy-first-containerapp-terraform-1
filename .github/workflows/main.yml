@@ -64,5 +64,5 @@ jobs:
        uses: docker/build-push-action@v2
        with:
         push: true
-        tags: firstcontainerapp283acracr.azurecr.io/aspcoresample:${{ github.sha }}
+        tags: firstcontainerapp213acracr.azurecr.io/aspcoresample:${{ github.sha }}
         file: aspnet-core-dotnet-core/Dockerfile
